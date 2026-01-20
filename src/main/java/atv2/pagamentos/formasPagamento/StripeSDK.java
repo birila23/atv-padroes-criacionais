@@ -1,6 +1,6 @@
-package atv2.gateway.formasPagamento;
+package atv2.pagamentos.formasPagamento;
 
-import atv2.gateway.PagamentoGateway;
+import atv2.pagamentos.gateway.PagamentoGateway;
 
 public class StripeSDK implements PagamentoGateway {
 

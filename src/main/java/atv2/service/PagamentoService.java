@@ -1,6 +1,6 @@
 package atv2.service;
 
-import atv2.gateway.PagamentoGateway;
+import atv2.pagamentos.gateway.PagamentoGateway;
 
 public class PagamentoService {
 
