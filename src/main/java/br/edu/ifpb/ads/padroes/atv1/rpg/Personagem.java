@@ -1,6 +1,6 @@
 package br.edu.ifpb.ads.padroes.atv1.rpg;
 
-public class Personagem {
+public class Personagem implements Cloneable{
 
     private String nome;
     private String raca;
@@ -28,6 +28,14 @@ public class Personagem {
         this.arma = arma;
         this.armadura = armadura;
         this.habilidades = habilidades;
+    }
+    @Override
+    public Personagem clone() {
+        try {
+            return (Personagem) super.clone();
+        } catch (CloneNotSupportedException e) {
+            throw new RuntimeException("Erro ao clonar personagem" + e);
+        }
     }
 
     // Getters e Setters básicos
