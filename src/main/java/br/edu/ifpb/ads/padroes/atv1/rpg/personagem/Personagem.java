@@ -1,4 +1,7 @@
-package br.edu.ifpb.ads.padroes.atv1.rpg;
+package br.edu.ifpb.ads.padroes.atv1.rpg.personagem;
+
+import br.edu.ifpb.ads.padroes.atv1.rpg.armamento.Arma;
+import br.edu.ifpb.ads.padroes.atv1.rpg.armamento.Armadura;
 
 public class Personagem implements Cloneable{
 

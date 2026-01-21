@@ -1,8 +1,7 @@
 package br.edu.ifpb.ads.padroes.atv1.rpg.personagem;
 
-import br.edu.ifpb.ads.padroes.atv1.rpg.Arma;
-import br.edu.ifpb.ads.padroes.atv1.rpg.Armadura;
-import br.edu.ifpb.ads.padroes.atv1.rpg.Personagem;
+import br.edu.ifpb.ads.padroes.atv1.rpg.armamento.Arma;
+import br.edu.ifpb.ads.padroes.atv1.rpg.armamento.Armadura;
 
 public class PersonagemBuilder {
     private String nome;
